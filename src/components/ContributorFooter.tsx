@@ -1,22 +1,24 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Github, Linkedin, Mail } from "lucide-react";
-
+import sujalimg from "./sujal.jpg"
+import divyansh from "./divyansh.jpg"
+import adiimg from "./adi.jpg"
 const ContributorFooter = () => {
   const contributors = [
     {
       id: 1,
-      name: "Alex Chen",
+      name: "Sujal Khera",
       contribution: "AI Dialogue Engine",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      image: sujalimg,
       links: {
-        github: "#",
-        linkedin: "#",
-        email: "alex@npcgen.dev"
+        github: "https://github.com/Sujal-Khera",
+        linkedin: "https://www.linkedin.com/in/sujal-khera-402127293/",
+        email: "sujalkhera.c@gmail.com"
       }
     },
     {
       id: 2,
-      name: "Maya Rodriguez",
+      name: "Gawdham Rithi",
       contribution: "Character Design System",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
       links: {
@@ -27,24 +29,24 @@ const ContributorFooter = () => {
     },
     {
       id: 3,
-      name: "Jordan Kim",
+      name: "Aditya Aryan",
       contribution: "Backend Architecture",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      links: {
-        github: "#",
-        linkedin: "#",
-        email: "jordan@npcgen.dev"
-      }
-    },
-    {
-      id: 4,
-      name: "Sam Taylor",
-      contribution: "UI/UX Design",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      image: adiimg,
       links: {
         github: "#",
         linkedin: "#",
         email: "sam@npcgen.dev"
+      }
+    },
+    {
+      id: 4,
+      name: "Divyansh Yadav",
+      contribution: "UI/UX Design",
+      image: divyansh,
+      links: {
+        github: "https://github.com/DYNAMAXD/",
+        linkedin: "https://www.linkedin.com/in/divyansh-yadav-b03a54202/",
+        email: "dynamicdivyansh925@gmail.com"
       }
     }
   ];
